@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.bg {
+    background-image: url(bg2.jpg);
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    overflow: hidden;
+}
+.banner {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #9c9cdc;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: banner;
+    animation-delay: 2s;
+    animation-duration: 5s;
+}
+@keyframes banner {
+    0% {
+       transform: translateX(-500px);
+    }
+    100% {
+        
+    }
+}
+.banner h1 {
+    font-size: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    animation-name: texth1;
+    animation-delay: 2s;
+    animation-duration: 5s;
+}
+@keyframes texth1 {
+    0% {
+       transform: translate(500px, -500px);
+    }
+    100% {
+        
+    }
+}
